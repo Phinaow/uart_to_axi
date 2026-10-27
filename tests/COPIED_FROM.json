@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-22",
+  "description": "Initial snapshots of the existing tests; future UART-only changes may diverge intentionally.",
+  "files": {
+    "tests/test_uart_rx.py": {
+      "source": "test/test_uart_rx.py",
+      "sha256": "c682925bc2aca889f2129f327e36c710567dfa2a6364c2b2e89c5a6e02268e1d"
+    },
+    "tests/test_uart_tx.py": {
+      "source": "test/test_uart_tx.py",
+      "sha256": "9dfe80be0a7a2abd6b8da92fb5c911d914e0a7c705ccec05430ef565b2c595c0"
+    },
+    "tests/test_r_buffer.py": {
+      "source": "test/test_r_buffer.py",
+      "sha256": "0fc633c7ed4e48aeaa7503029cdf789a897ac0ed437832da28fbba06cf9b9963"
+    },
+    "tests/test_t_buffer.py": {
+      "source": "test/test_t_buffer.py",
+      "sha256": "4144d35827979fb835b58cabeb91abccaef514dbb7945e2370423d9e0b81d213"
+    },
+    "tests/test_fifo.py": {
+      "source": "test/test_fifo.py",
+      "sha256": "9251edde0f5bd530d99177d3361cd0ebe18990f0f760f04baf4bb26f42078ed7"
+    },
+    "tests/test_data_to_axi.py": {
+      "source": "test/test_data_to_axi.py",
+      "sha256": "c4279353958abbe799b4c730a31517675946433352edc337884dec5761e61866"
+    },
+    "tests/test_uart_to_axi.py": {
+      "source": "test/test_uart_to_axi.py",
+      "sha256": "4f3fc0572c48b33ddd7f83b8157532d17d98c9cad639475d5cadc502b895a3e1"
+    },
+    "tests/test_top_uart.py": {
+      "source": "test/test_top_uart.py",
+      "sha256": "fec771f14cb377b9e054e8e8c92ff3edf6e9efa48314a9b0012f35e86154467e"
+    },
+    "tests/serial_link.py": {
+      "source": "test/serial_link.py",
+      "sha256": "92e736824904cfdbbe274f63aa23a84ee4699a198ae3a5a589b37ae0ac697479"
+    },
+    "tests/axi_lite_slave.py": {
+      "source": "test/axi_lite_slave.py",
+      "sha256": "dcdd96c190f99f431f0ef4350f8c892e2546148b7e3bf75e272265ceaa305964"
+    },
+    "cache_integration/test_uart_to_cache.py": {
+      "source": "test/test_uart_to_cache.py",
+      "sha256": "287bb7ebc0b7056f4afc4b704acba92354e82fa5fdd006409f372cbf592e26c5"
+    },
+    "cache_integration/rtl/adam_mig_model.sv": {
+      "source": "test/rtl/adam_mig_model.sv",
+      "sha256": "7e6ee71426239bb1a58b3f1a425e4572bbebdb4e931ae3dbc55a332cc21c3842"
+    },
+    "cache_integration/rtl/clk_ref_mig_model.sv": {
+      "source": "test/rtl/clk_ref_mig_model.sv",
+      "sha256": "c3e68ef665f258127dca4d16a0f2380d163c6f61ff0509f43780660c2b338e50"
+    }
+  }
+}
